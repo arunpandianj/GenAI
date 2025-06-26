@@ -36,7 +36,7 @@ Components
     Learns optimal actions by maximizing long-term rewards.
     Uses ε-greedy exploration, Q-table updates, and state discretization.
 
-🔁 Workflow
+Workflow:
     A synthetic patient is sampled.
     GPT generates a textual treatment plan.
     The plan is parsed into an RL-compatible action.
@@ -44,7 +44,7 @@ Components
     The Q-learning agent observes the reward and updates its policy.
     Over many episodes, the agent learns which GPT-generated plans are most effective.
 
-📊 Output
+Output:
     A learning curve shows the total reward per episode.
     A sample decision is displayed:
         Input: (glucose = 180, weight = 85, no medication)
