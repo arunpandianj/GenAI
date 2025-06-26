@@ -1,18 +1,18 @@
-🧠 Project Title: Personalized Treatment Plan Generation using Generative AI Guided by Reinforcement Learning
+Project Title: Personalized Treatment Plan Generation using Generative AI Guided by Reinforcement Learning
 
-📌 Overview
+Overview
 This project demonstrates a proof-of-concept system that combines Reinforcement Learning (RL) with Generative AI (via OpenAI GPT models) to generate and optimize personalized treatment plans for patients with Type 2 Diabetes.
     🧬 The RL agent learns which treatment strategies lead to the best patient health outcomes.
     🤖 The GPT model acts as a medical assistant, generating treatment plans in natural language.
     🔁 The agent uses those suggestions and improves its choices over multiple patient interactions.
 
-💡 Motivation
+Motivation
 Traditional treatment planning in chronic diseases like diabetes is often rule-based or reactive. With AI integration, we aim to:
-    Simulate personalized patient responses to treatments
-    Incorporate medically sound language from LLMs (like GPT)
-    Use reinforcement learning to adapt and choose the best long-term treatment policy
+1. Simulate personalized patient responses to treatments
+2. Incorporate medically sound language from LLMs (like GPT)
+3. Use reinforcement learning to adapt and choose the best long-term treatment policy
 
-🧰 Components
+Components
 1. Synthetic Patient Dataset
     Generates patients with features:
         glucose_level (140–250 mg/dL)
